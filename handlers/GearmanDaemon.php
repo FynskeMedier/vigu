@@ -7,10 +7,10 @@
  * @license   http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0
  */
 require_once dirname(__FILE__) . '/../lib/PHP-Daemon/Core/Daemon.php';
-require_once dirname(__FILE__) . '/../lib/PHP-Daemon/Core/PluginInterface.php';
+require_once dirname(__FILE__) . '/../lib/PHP-Daemon/Core/IPlugin.php';
 require_once dirname(__FILE__) . '/../lib/PHP-Daemon/Core/Lock/Lock.php';
 require_once dirname(__FILE__) . '/../lib/PHP-Daemon/Core/Lock/File.php';
-require_once dirname(__FILE__) . '/../lib/PHP-Daemon/Core/Plugins/Ini.php';
+require_once dirname(__FILE__) . '/../lib/PHP-Daemon/Core/Plugin/Ini.php';
 require_once dirname(__FILE__) . '/RedisFunctions.php';
 require_once dirname(__FILE__) . '/../lib/php-gearman-admin/GearmanAdmin.php';
 /**
